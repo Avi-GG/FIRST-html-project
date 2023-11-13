@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1><U>Registration Form<</U></h1>
+        <form action="/action.php">
+            <h5>enter details :</h5>
+            <input type="text" placeholder="enter name">
+            <br>
+            <input type="password" placeholder="enter password">
+            <br>
+            <br>
+            <h5> select class :</h5>
+            <label for="101">
+               <input type="radio" value="class XI" name="class" id="101">class XI
+            </label>
+            <br>
+            <label for="102">
+               <input type="radio" value="class XII" name="class" id="102">class XII <!--same class name in a label allows to click on either text also instead the bullets-->
+            </label>
+            <h5>select fav subjects :</h5>
+
+            <label for="math">
+                <input type="checkbox" value="math " name="class" id="101">Math
+             </label>
+             <br>
+             <label for="CSE">
+                <input type="checkbox" value="CSE" name="class" id="102">CSE <!--same class name in a label allows to click on either text also instead the bullets-->
+             </label>
+             <br>
+             <label for="IT">
+                <input type="checkbox" value="IT" name="class" id="101">IT
+             </label>
+             <br>
+             <label for="chem">
+                <input type="checkbox" value="chemistry" name="class" id="102">Chemistry <!--same class name in a label allows to click on either text also instead the bullets-->
+             </label>
+             <br><br>
+             select your city
+             <select name="city" id="500">
+                 <option value="Delhi">Delhi</option>
+                 <option value="Mumbai">Mumbai</option>
+                 <option value="Bangalore">Bangalore</option>
+                 <option value="Surat">Surat</option>
+                 <option value="Muzaffarnagar">Muzaffarnagar</option>
+            </select>
+             <br>
+             <br>
+             <textarea name="feedback" id="102" placeholder="give your feedback here"  cols="30" rows="10"></textarea>
+             <br><br>
+
+             <input type="submit" value="submit">
+
+        </form>
+</body>
+</html>
